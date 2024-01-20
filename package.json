@@ -1,0 +1,39 @@
+{
+  "name": "dark-modern-nitpicking-theme",
+  "displayName": "Dark Modern Nitpicking Theme",
+  "description": "A slightly different version of Dark Modern with fewer borders and some color changes",
+  "version": "0.0.1",
+	"license": "MIT License",
+	"publisher": "romulosantos",
+	"author": {
+		"name": "Romulo Santos",
+		"url": "https://github.com/romulorvs"
+	},
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository": {
+		"type": "git",
+		"url":"https://github.com/romulorvs/dark-mode-nitpicking-color-theme"
+  },
+  "categories": [
+    "Themes"
+  ],
+	"keywords": [
+		"theme",
+		"color-theme",
+		"dark",
+		"dark modern"
+	],
+	"homepage": "https://github.com/romulorvs/dark-mode-nitpicking-color-theme",
+	"icon": "logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Modern Nitpicking  Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-modern-nitpicking-color-theme.json"
+      }
+    ]
+  }
+}
